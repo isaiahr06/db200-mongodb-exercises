@@ -1,0 +1,19 @@
+{
+  "name": "mongo-exercises",
+  "version": "0.1.0",
+  "description": "mongo exercises",
+  "main": "server/index.js",
+  "scripts": {
+    "test": "mocha test/db.spec.js --exit"
+  },
+  "dependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^10.0.0",
+    "mongodb": "^4.8.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cccareers/db200-mongodb-exercises.git"
+  },
+  "license": "MIT"
+}
